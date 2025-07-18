@@ -51,8 +51,6 @@ This project uses the **TMDB 5000 Movie Dataset** from Kaggle:
 ## 🔐 TMDB API Key
 The app uses the TMDB API to fetch movie posters.
 
-You can replace the API key inside the fetch_poster() function in app.py with your own.
-
 ## 🌐 Deployment 
 ✅ Streamlit Cloud
 
