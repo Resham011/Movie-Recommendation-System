@@ -12,7 +12,7 @@ A Streamlit-powered web app that recommends similar movies based on user prefere
 
 ## 📦 Installation
 1. Clone the repository:
-    git clone https://github.com/yourusername/movie-recommender.git
+    git clone [https://github.com/yourusername/movie-recommender](https://github.com/Resham011/Movie-Recommendation-System).git
 2. Install dependencies:
     pip install -r requirements.txt
 3. Create and activate virtual environment:
