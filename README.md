@@ -7,7 +7,7 @@ A simple and interactive **Movie Recommender Web App** built with **Streamlit**.
 ## 🚀 Demo
 
 Try the live app here:  
-🔗[https://your-deployment-link.com](https://movie-recommendation-system-e8pjs6dvu6pcx6ctfhd3hj.streamlit.app/)
+🔗[https://movie-recommendation-system.com](https://movie-recommendation-system-e8pjs6dvu6pcx6ctfhd3hj.streamlit.app/)
 
 ---
 
@@ -38,26 +38,19 @@ Built with:
 
 ---
 
-## 📁 Project Structure
-movie-recommendation-system-app/
-├── app.py # Streamlit app
-├── model.ipynb # Notebook for training model
-├── requirements.txt # All Python dependencies
-├── README.md # This file
 
-
-🔐 TMDB API Key
+## 🔐 TMDB API Key
 The app uses the TMDB API to fetch movie posters.
 
 You can replace the API key inside the fetch_poster() function in app.py with your own.
 
-🌐 Deployment Options
+## 🌐 Deployment Options
 You can deploy this app using:
 ✅ Streamlit Cloud (Recommended)
 ☁️ Heroku
 🌍 Render
 
-✍️ Author
+## ✍️ Author
 Made with ❤️ by Resham
 
 ⭐️ Show Your Support
