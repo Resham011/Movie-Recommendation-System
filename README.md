@@ -7,7 +7,7 @@ A simple and interactive **Movie Recommender Web App** built with **Streamlit**.
 ## 🚀 Demo
 
 Try the live app here:  
-🔗 [https://your-deployment-link.com]([https://your-deployment-link.com](https://movie-recommendation-system-e8pjs6dvu6pcx6ctfhd3hj.streamlit.app/))
+🔗[https://your-deployment-link.com](https://movie-recommendation-system-e8pjs6dvu6pcx6ctfhd3hj.streamlit.app/)
 
 ---
 
