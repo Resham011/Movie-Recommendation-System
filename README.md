@@ -37,18 +37,24 @@ Built with:
 5. Posters fetched dynamically from TMDB API
 
 ---
+## 📊 Dataset Source
 
+This project uses the **TMDB 5000 Movie Dataset** from Kaggle:
+
+- 📂 [TMDB 5000 Movie Dataset on Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+- Files used:
+  - `tmdb_5000_movies.csv`
+  - `tmdb_5000_credits.csv`
+
+---
 
 ## 🔐 TMDB API Key
 The app uses the TMDB API to fetch movie posters.
 
 You can replace the API key inside the fetch_poster() function in app.py with your own.
 
-## 🌐 Deployment Options
-You can deploy this app using:
-✅ Streamlit Cloud (Recommended)
-☁️ Heroku
-🌍 Render
+## 🌐 Deployment 
+✅ Streamlit Cloud
 
 ## ✍️ Author
 Made with ❤️ by Resham
