@@ -1,50 +1,66 @@
 # 🎬 Movie Recommender System
 
-A Streamlit-powered web app that recommends similar movies based on user preferences, using collaborative filtering and TMDB API for posters.
+A simple and interactive **Movie Recommender Web App** built with **Streamlit**. It recommends movies based on content similarity using a pre-trained machine learning model.
 
-![Demo]([https://via.placeholder.com/800x400?text=Movie+Recommender+Demo](https://movie-recommendation-system-e8pjs6dvu6pcx6ctfhd3hj.streamlit.app/))
+---
 
-## 🚀 Features
-- Recommends 5 similar movies based on user selection
-- Fetches high-quality movie posters from TMDB
-- Fast and lightweight with caching
-- Works with both public and private datasets
+## 🚀 Demo
 
-## 📦 Installation
-1. Clone the repository:
-    git clone [https://github.com/yourusername/movie-recommender](https://github.com/Resham011/Movie-Recommendation-System).git
-2. Install dependencies:
-    pip install -r requirements.txt
-3. Create and activate virtual environment:
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+Try the live app here:  
+🔗 [https://your-deployment-link.com]([https://your-deployment-link.com](https://movie-recommendation-system-e8pjs6dvu6pcx6ctfhd3hj.streamlit.app/))
 
-🖥️ Usage
-Run the app locally:
-  streamlit run app.py
+---
 
-🌐 Live Demo
-[https://static.streamlit.io/badges/streamlit_badge_black_white.svg](https://movie-recommendation-system-e8pjs6dvu6pcx6ctfhd3hj.streamlit.app/)
+## 📌 Features
 
-🛠️ Project Structure
-text
-movie-recommender/
-├── app.py                # Main application code
-├── model.ipynb           # Notebook to train model
-├── requirements.txt      # Python dependencies
-└── README.md             # This file
+- Recommend top 5 similar movies
+- Fetch movie posters using **TMDB API**
+- Trained with:
+  - Content-based filtering
+  - Cosine similarity
+  - TMDB 5000 dataset
 
-🧠 How It Works
-  Uses content-based filtering (based on movie tags & metadata)
-  Trained on TMDB 5000 Movies & Credits
-  Uses cosine similarity for recommendations
-  Shows movie posters and names using TMDB API
+Built with:
+- 🐍 Python
+- 🧠 scikit-learn, pandas
+- 🌐 Streamlit
+- 🧵 Pickle (model storage)
 
-🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first.
+---
 
-📜 License
-MIT
+## 🧠 How It Works
 
-⭐️ Show Some Love
-If you found this helpful, please consider giving it a ⭐️ on GitHub!
+1. Data is cleaned and combined into a single feature "tags"
+2. TF-IDF or CountVectorizer is used to convert text to numerical form
+3. Cosine similarity is calculated between movies
+4. Based on your selected movie, it recommends 5 most similar ones
+5. Posters fetched dynamically from TMDB API
+
+---
+
+## 📁 Project Structure
+movie-recommendation-system-app/
+├── app.py # Streamlit app
+├── model.ipynb # Notebook for training model
+├── requirements.txt # All Python dependencies
+├── README.md # This file
+
+
+🔐 TMDB API Key
+The app uses the TMDB API to fetch movie posters.
+
+You can replace the API key inside the fetch_poster() function in app.py with your own.
+
+🌐 Deployment Options
+You can deploy this app using:
+✅ Streamlit Cloud (Recommended)
+☁️ Heroku
+🌍 Render
+
+✍️ Author
+Made with ❤️ by Resham
+
+⭐️ Show Your Support
+If you found this project useful, consider giving it a ⭐️ on GitHub 🙌
+
+
