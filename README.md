@@ -1,9 +1,9 @@
 # 🎬 Movie Recommender System
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://huggingface.co/spaces/Resham2987/Movie-Recommendation-System)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://movie-recommendation-system-hn4hvhjrnwztxkirccax6e.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B.svg)](https://movie-recommendation-system-hn4hvhjrnwztxkirccax6e.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Hugging%20Face-yellow.svg?logo=huggingface)](https://huggingface.co/spaces/Resham2987/Movie-Recommendation-System)
 
 ## 📖 Overview
 This project is a **Content-Based Movie Recommender System** that analyzes movie metadata to suggest similar content. Using the TMDB 5000 Movies dataset, the system processes over 5,000 films to find meaningful connections between genres, cast, crew, and plot descriptions.
