@@ -1,8 +1,9 @@
 # 🎬 Movie Recommender System
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_HUGGING_FACE_URL_HERE)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://huggingface.co/spaces/Resham2987/Movie-Recommendation-System)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B.svg)](https://movie-recommendation-system-hn4hvhjrnwztxkirccax6e.streamlit.app/)
 
 ## 📖 Overview
 This project is a **Content-Based Movie Recommender System** that analyzes movie metadata to suggest similar content. Using the TMDB 5000 Movies dataset, the system processes over 5,000 films to find meaningful connections between genres, cast, crew, and plot descriptions.
@@ -41,8 +42,8 @@ To build this engine, I implemented a robust Natural Language Processing (NLP) p
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/Resham011/Movie-Recommendation-System.git
+cd Movie-Recommendation-System
 ```
 
 2. **Install Dependencies:**
@@ -55,15 +56,20 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## 🌐 Live Demos
+| Platform | Link |
+|----------|------|
+| 🤗 Hugging Face Spaces | [Movie-Recommendation-System](https://huggingface.co/spaces/Resham2987/Movie-Recommendation-System) |
+| ☁️ Streamlit Cloud | [Live App](https://movie-recommendation-system-hn4hvhjrnwztxkirccax6e.streamlit.app/) |
+
 ## 🛠️ Tech Stack
 * **Core**: Python, Pandas, NumPy
 * **Machine Learning**: Scikit-Learn (CountVectorizer, Cosine Similarity)
 * **Web Framework**: Streamlit
 * **Version Control**: Git & Git LFS
-* **Hosting**: Hugging Face Spaces
+* **Hosting**: Hugging Face Spaces & Streamlit Cloud
 
 ## 👤 Author
-**[Your Name]**
-* LinkedIn: [your-profile-link]
-* Portfolio: [your-website-link]
-* Email: [your-email@example.com]
+**Resham**
+* 💼 LinkedIn: [linkedin.com/in/resham-3b438a281](https://www.linkedin.com/in/resham-3b438a281/)
+* 🐙 GitHub: [github.com/Resham011](https://github.com/Resham011)
